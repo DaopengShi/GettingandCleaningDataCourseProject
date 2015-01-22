@@ -1,5 +1,6 @@
-*CodeBook of my tidy data set
-**tidydataset.txt
+CodeBook of my tidy data set
+==================
+###tidydataset.txt
 The tidydataset.txt table contains sixty-eight (68) fields.This table provides the average of mean and standard deviation for each measurement for each activity and each subject.
 
 1.SubjectID:integer The ID of the subject.
