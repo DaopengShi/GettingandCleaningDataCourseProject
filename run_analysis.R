@@ -48,4 +48,5 @@ resultset<-desireset %>%
   group_by(SubjectID,Activity) %>%
   summarise_each(funs(mean))
 #Write the tidy data set into tidydataset.txt.
-write.table(resultset,file="tidydataset.txt",row.names = FALSE,quote = FALSE)
+write.table(resultset,file="tidydataset.txt",row.names = FALSE,
+            quote = FALSE,eol="\r\n")
